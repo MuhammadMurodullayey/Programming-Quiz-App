@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uz.gita.myquizappp.TestActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#222745"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/appBarLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_top">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_chevron_left_24" />
+
+            <TextView
+                android:id="@+id/theme_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/question_count"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:text="@string/quiz_count"
+                android:textColor="#BDC8CD"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="right|center"
+                android:padding="10dp"
+                android:text="@string/_03_00_min"
+                android:textColor="#BDC8CD"
+                android:textSize="22sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="#BDC8CD"
+            android:scaleType="centerCrop"
+            android:src="@drawable/line" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/question_text"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:justificationMode="inter_word"
+                    android:padding="15dp"
+                    android:text="@string/question_text"
+                    android:textColor="#BDC8CD"
+                    android:textSize="20sp" />
+
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/a"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="20sp"
+                    android:background="@drawable/variant_style"
+                    android:clickable="true"
+                    android:focusable="true"
+                    >
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/tt"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/variant_scyle"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/a"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <TextView
+                        android:id="@+id/variant_a"
+                        android:layout_width="294dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:gravity="left|center"
+                        android:text="@string/java"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/b"
+                    android:background="@drawable/variant_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/variant_scyle"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/b"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+
+                            android:textStyle="bold" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <TextView
+                        android:id="@+id/variant_b"
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:gravity="left|center"
+                        android:text="@string/java"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/c"
+                    android:clickable="true"
+                    android:background="@drawable/variant_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:focusable="true">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="40dp"
+
+                        android:layout_height="40dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/variant_scyle"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/c"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <TextView
+                        android:id="@+id/variant_c"
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:gravity="left|center"
+                        android:text="@string/java"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/d"
+                    android:clickable="true"
+                    android:background="@drawable/variant_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="20sp"
+                    android:focusable="true">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="left|center"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/variant_scyle"
+                        tools:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/d"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            android:textStyle="bold" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <TextView
+                        android:id="@+id/variant_d"
+                        android:layout_width="285dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:gravity="left|center"
+                        android:text="@string/java"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="20sp"
+
+                    app:cardCornerRadius="10dp">
+
+                    <TextView
+                        android:background="@drawable/next_style"
+                        android:enabled="false"
+                        android:id="@+id/next"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/next"
+                        android:textColor="@color/white"
+                        android:textSize="30sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </ScrollView>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

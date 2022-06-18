@@ -1,0 +1,574 @@
+<resources>
+    <string name="app_name">Programming Quiz</string>
+    <string name="quiz_count">Quiz : 60/1</string>
+    <string name="question_text">Which space agency has decided to carry out first all-female spacewalk at the International space Station (ISS)?</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="next">next</string>
+
+    <string name="test_category_java">Java</string>
+    <string name="test_category_kotlin">Kotlin</string>
+    <string name="test_category_c">C++</string>
+    <string name="test_category_piton">Python</string>
+
+    <string-array name="questions_java">
+        <item>Who invented Java Programming?</item>
+        <item>Which statement is true about Java?</item>
+        <item>Which component is used to compile, debug and execute the java programs?</item>
+        <item>Which one of the following is not a Java feature?</item>
+        <item>Which of these cannot be used for a variable name in Java?</item>
+        <item>What is the extension of java code files?</item>
+        <item>Which environment variable is used to set the java path?</item>
+        <item>Which of the following is not an OOPS concept in Java?</item>
+        <item>What is not the use of “this” keyword in Java?</item>
+        <item>Which of the following is a type of polymorphism in Java Programming?</item>
+        <item>What is Truncation in Java?</item>
+        <item>What is the extension of compiled java classes?</item>
+        <item>Which exception is thrown when java is out of memory?</item>
+        <item>Which of these are selection statements in Java?</item>
+        <item>Which of these keywords is used to define interfaces in Java?</item>
+        <item>Which of the following is a superclass of every class in Java?</item>
+        <item>Which of the below is not a Java Profiler?</item>
+        <item>Which of these packages contains the exception Stack Overflow in Java?</item>
+        <item>Which one of the following is not an access modifier?</item>
+        <item>What is the numerical range of a char data type in Java?</item>
+    </string-array>
+    <string-array name="questions_java_answers">
+        <item>James Gosling</item>
+        <item> Java is a platform-independent programming language</item>
+        <item>JDK</item>
+        <item>Use of pointers</item>
+        <item>keyword</item>
+        <item>.java</item>
+        <item>JAVA_HOME</item>
+        <item>Compilation</item>
+        <item>Passing itself to the method of the same class</item>
+        <item>Compile time polymorphism</item>
+        <item>Floating-point value assigned to an integer type</item>
+        <item>.class</item>
+        <item>OutOfMemoryError</item>
+        <item>if()</item>
+        <item>interface</item>
+        <item>Object class</item>
+        <item>JVM</item>
+        <item>java.lang</item>
+        <item>Void</item>
+        <item>0 to 65535</item>
+    </string-array>
+    <string-array name="question_variant_java_a">
+        <item>Guido van Rossum</item>
+        <item>Java is a sequence-dependent programming language</item>
+        <item>JRE</item>
+        <item>Object-oriented</item>
+        <item>identifier and keyword</item>
+        <item>.js</item>
+        <item>MAVEN_Path</item>
+        <item>Polymorphism</item>
+        <item>Referring to the instance variable when a local variable has the same name</item>
+        <item>Multiple polymorphism</item>
+        <item>Floating-point value assigned to a Floating type</item>
+        <item>.txt</item>
+        <item>MemoryError</item>
+        <item>break</item>
+        <item>intf</item>
+        <item>ArrayList</item>
+        <item>JProfiler</item>
+        <item>java.io</item>
+        <item>Protected</item>
+        <item>0 to 256</item>
+
+    </string-array>
+    <string-array name="question_variant_java_b">
+        <item>James Gosling</item>
+        <item>Java is a code dependent programming language</item>
+        <item>JIT</item>
+        <item>Use of pointers</item>
+        <item>identifier</item>
+        <item>.txt</item>
+        <item>JavaPATH</item>
+        <item>Inheritance</item>
+        <item>Passing itself to the method of the same class</item>
+        <item>Compile time polymorphism</item>
+        <item>Floating-point value assigned to an integer type</item>
+        <item>.js</item>
+        <item>OutOfMemoryError</item>
+        <item>continue</item>
+        <item>Intf</item>
+        <item>Abstract class</item>
+        <item>Eclipse Profiler</item>
+        <item>java.system</item>
+        <item>Void</item>
+        <item>-128 to 127</item>
+
+    </string-array>
+    <string-array name="question_variant_java_c">
+        <item>Dennis Ritchie</item>
+        <item>Java is a platform-dependent programming language</item>
+        <item>JDK</item>
+        <item>Portable</item>
+        <item>keyword</item>
+        <item>.class</item>
+        <item>JAVA</item>
+        <item>Compilation</item>
+        <item>Passing itself to another method</item>
+        <item>Multilevel polymorphism</item>
+        <item>Integer value assigned to floating type</item>
+        <item>.class</item>
+        <item>MemoryOutOfBoundsException</item>
+        <item>for()</item>
+        <item>interface</item>
+        <item>Object class</item>
+        <item>JVM</item>
+        <item>java.lang</item>
+        <item>Public</item>
+        <item>0 to 65535</item>
+    </string-array>
+    <string-array name="question_variant_java_d">
+        <item>Bjarne Stroustrup</item>
+        <item>Java is a platform-independent programming language</item>
+        <item>JVM</item>
+        <item>Dynamic and Extensible</item>
+        <item>none of the mentioned</item>
+        <item>.java</item>
+        <item>JAVA_HOME</item>
+        <item>Compilation</item>
+        <item>Calling another constructor in constructor chaining</item>
+        <item>Execution time polymorphism</item>
+        <item>Integer value assigned to floating type</item>
+        <item>.java</item>
+        <item>MemoryFullException</item>
+        <item>if()</item>
+        <item>Interface</item>
+        <item>String</item>
+        <item>JConsole</item>
+        <item>java.util</item>
+        <item>Private</item>
+        <item>0 to 32767</item>
+    </string-array>
+
+    <string-array name="question_kotlin">
+        <item>What are Booleans?</item>
+        <item>What is the meaning of HTML?</item>
+        <item>What does AI mean?</item>
+        <item>Why do we need abstract class?</item>
+        <item>When you use a data class, what functions will the compiler automatically provide?</item>
+        <item>What value is 10 until 12</item>
+        <item>Elvis operator keyword?</item>
+        <item> Which the right code to declare nullable variable in Kotlin?</item>
+        <item>Which keyword used to create a mutable variable?</item>
+        <item>Deklarasi variabel Kotlin yang bersifat immutable?</item>
+        <item>Manakah OS di bawah ini yang Open Source?</item>
+        <item>Mana yang lebih lama?</item>
+        <item>Bahasa pemrograman apa saja yang bisa digunakan untuk mengembangkan aplikasi Android Native?</item>
+        <item>How to write correct parameters in Kotlin?</item>
+        <item>Would you like to become a programmer some day?</item>
+        <item>What is Java used on?</item>
+        <item>What is the best known programming language ever?</item>
+        <item>Does programming pay you good money?</item>
+        <item>Which of these can be used for programming?</item>
+        <item>Which ways can you use for an HTML file?</item>
+
+
+    </string-array>
+    <string-array name="questions_kotlin_answers">
+        <item>True and False</item>
+        <item>Hypertext Markup Language</item>
+        <item>Artificial Intelligence</item>
+        <item>to avoid creating instances of the class</item>
+        <item>copy(), equals, dan toString()</item>
+        <item>10 11</item>
+        <item>"?:"</item>
+        <item>val text: String? = null</item>
+        <item>var</item>
+        <item>val</item>
+        <item>Both A and B</item>
+        <item>Objective C</item>
+        <item>Both A and B</item>
+        <item>fun sum(valueA: Int, valueB: Int)</item>
+        <item>Yes</item>
+        <item>All of above</item>
+        <item>Java</item>
+        <item>Both A and B</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="question_variant_kotlin_a">
+        <item>A question</item>
+        <item>Hypertext Making Language</item>
+        <item>Artificial Intelligence</item>
+        <item>to inherited values from other classes</item>
+        <item>paste(), toDouble(), notEquals()</item>
+        <item>10 11 12</item>
+        <item>"?:"</item>
+        <item>val text: String = null</item>
+        <item>var</item>
+        <item>val</item>
+        <item>Android</item>
+        <item>Swift</item>
+        <item>Java</item>
+        <item>fun sum(Int: ValueA, Int: valueB)</item>
+        <item>Definitely</item>
+        <item>Wifi Routers</item>
+        <item>Python</item>
+        <item>Yes, programming pays good money.</item>
+        <item>Python</item>
+        <item>.htm</item>
+    </string-array>
+    <string-array name="question_variant_kotlin_b">
+        <item>True and False</item>
+        <item>Hightext Markup Language</item>
+        <item>Artificial Interrogation</item>
+        <item>to avoid creating instances of the class</item>
+        <item>equals(), copy, dan toInt()</item>
+        <item>10 11</item>
+        <item>"??"</item>
+        <item>val text: String? = null</item>
+        <item>val</item>
+        <item>var</item>
+        <item>Linux</item>
+        <item>Objective C</item>
+        <item>Kotlin</item>
+        <item>fun sum(Int ValueA, Int valueB)</item>
+        <item>Yes</item>
+        <item>Blu-Ray Players</item>
+        <item>Kotlin</item>
+        <item>No, people make more money by making burgers.</item>
+        <item>HTML</item>
+        <item>.html</item>
+    </string-array>
+    <string-array name="question_variant_kotlin_c">
+        <item>A decision</item>
+        <item>Hypertext Markup Language</item>
+        <item>--</item>
+        <item>to not inherit values from other classes</item>
+        <item>equals(), copy, dan toInt()</item>
+        <item>11 12</item>
+        <item>":?"</item>
+        <item>val text: nullable = null</item>
+        <item>const</item>
+        <item>const</item>
+        <item>Mac OS</item>
+        <item>--</item>
+        <item>PHP</item>
+        <item>fun sum(valueA: Int, valueB: Int)</item>
+        <item>Maybe</item>
+        <item>Operating Systems</item>
+        <item>Java</item>
+        <item>--</item>
+        <item>JavaScript</item>
+        <item>.tml</item>
+    </string-array>
+    <string-array name="question_variant_kotlin_d">
+        <item>Percents</item>
+        <item>--</item>
+        <item>--</item>
+        <item>to create an instance of the class</item>
+        <item>copy(), equals, dan toString()</item>
+        <item>All is wrong!</item>
+        <item>"?."</item>
+        <item>val text: String</item>
+        <item>mutable</item>
+        <item>final</item>
+        <item>Both A and B</item>
+        <item>fun sum(valueA Int, valueB Int)</item>
+        <item>No</item>
+        <item>All of above</item>
+        <item>Ruby</item>
+        <item>--</item>
+        <item>All of above</item>
+        <item>Both A and B</item>
+        <item>---</item>
+        <item>---</item>
+    </string-array>
+
+    <string-array name="question_c">
+        <item> Who invented C++?</item>
+        <item>What is C++?</item>
+        <item>Which of the following is the correct syntax of including a user defined header files in C++?</item>
+        <item>Which of the following is used for comments in C++?</item>
+        <item>Which of the following user-defined header file extension used in c++?</item>
+        <item> Which of the following is a correct identifier in C++?</item>
+        <item> Which of the following is not a type of Constructor in C++?</item>
+        <item>Which of the following approach is used by C++?</item>
+        <item>What is virtual inheritance in C++?</item>
+        <item>What happens if the following C++ statement is compiled and executed?/nint *ptr = NULL;/ndelete ptr;</item>
+        <item>What is the difference between delete and delete[] in C++?</item>
+        <item> Which of the following is correct about this pointer in C++?</item>
+        <item>Which of the following type is provided by C++ but not C?</item>
+        <item>By default, all the files in C++ are opened in _________ mode.</item>
+        <item> Which of the following correctly declares an array in C++?</item>
+        <item>What is the size of wchar_t in C++?</item>distinguishes between comments and code
+        <item>What is the use of the indentation in c++?</item>
+        <item>Which is more effective while calling the C++ functions?</item>
+        <item>Which of the following is used to terminate the function declaration in C++?</item>
+        <item>Which keyword is used to define the macros in c++?</item>
+
+    </string-array>
+    <string-array name="questions_c_answers">
+        <item>Bjarne Stroustrup</item>
+        <item>C++ supports both procedural and object oriented programming language</item>
+        <item>#include “userdefined”</item>
+        <item>both // comment or /* comment */</item>
+        <item>h</item>
+        <item>VAR_1234</item>
+        <item>Friend constructor</item>
+        <item>Bottom-up</item>
+        <item>C++ technique to avoid multiple copies of the base class into children/derived class</item>
+        <item>The program is compiled and executed successfully</item>
+        <item>delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects</item>
+        <item>this pointer is passed as a hidden argument in all non-static functions of a class</item>
+        <item>bool</item>
+        <item>Text</item>
+        <item>int array[10];</item>
+        <item>Based on the number of bits in the system</item>
+        <item>distinguishes between comments and code</item>
+        <item>call by reference</item>
+        <item>;</item>
+        <item>#define</item>
+
+    </string-array>
+    <string-array name="question_variant_c_a">
+        <item>Dennis Ritchie</item>
+        <item>C++ is an object oriented programming language</item>
+        <item> #include [userdefined]</item>
+        <item>/* comment */</item>
+        <item>hg</item>
+        <item>VAR_1234</item>
+        <item>Default constructor</item>
+        <item>Left-right</item>
+        <item> C++ technique to enhance multiple inheritance</item>
+        <item>The program is not semantically correct</item>
+        <item>delete is syntactically correct but delete[] is wrong and hence will give an error if used in any case</item>
+        <item>this pointer is passed as a hidden argument in all static variables of a class</item>
+        <item>double</item>
+        <item>Binary</item>
+        <item> array{10};</item>
+        <item>Based on the number of bits in the system</item>
+        <item>r distinguishes between comments and inner data</item>
+        <item>call by object</item>
+        <item>;</item>
+        <item>#macro</item>
+
+    </string-array>
+    <string-array name="question_variant_c_b">
+        <item>Ken Thompson</item>
+        <item>C++ supports both procedural and object oriented programming language</item>
+        <item>#include “userdefined”</item>
+        <item>// comment */</item>
+        <item>cpp</item>
+        <item>$var_name</item>
+        <item>Parameterized constructor</item>
+        <item>Right-left</item>
+        <item>C++ technique to ensure that a private member of the base class can be accessed somehow</item>
+        <item>The program is compiled and executed successfully</item>
+        <item>delete is used to delete normal objects whereas delete[] is used to pointer objects</item>
+        <item>this pointer is passed as a hidden argument in all the functions of a class</item>
+        <item> float</item>
+        <item>VTC</item>
+        <item>array array[10];</item>
+        <item> 2 or 4</item>
+        <item>distinguishes between comments and outer data</item>
+        <item>call by pointer</item>
+        <item>]</item>
+        <item>#define</item>
+
+    </string-array>
+    <string-array name="question_variant_c_c">
+        <item>Brian Kernighan</item>
+        <item>C++ is an object oriented programming language</item>
+        <item>#include userdefined.h</item>
+        <item>// comment</item>
+        <item>h</item>
+        <item>7VARNAME</item>
+        <item>Copy constructor</item>
+        <item>Bottom-up</item>
+        <item>C++ technique to avoid multiple inheritances of classes</item>
+        <item>The program gives a compile-time error</item>
+        <item> delete is a keyword whereas delete[] is an identifier</item>
+        <item>this pointer is passed as a hidden argument in all non-static functions of a class</item>
+        <item>int</item>
+        <item>Text</item>
+        <item> int array;</item>
+        <item>4</item>
+        <item>distinguishes between comments and code</item>
+        <item>call by value</item>
+        <item>)</item>
+        <item>macro</item>
+
+    </string-array>
+    <string-array name="question_variant_c_d">
+        <item>Bjarne Stroustrup</item>
+        <item>C++ is a functional programming language</item>
+        <item> #include <userdefined /></item>
+        <item>both // comment or /* comment */</item>
+        <item>hf</item>
+        <item>7var_name</item>
+        <item>Friend constructor</item>
+        <item>Top-down</item>
+        <item>C++ technique to avoid multiple copies of the base class into children/derived class</item>
+        <item>The program compiled successfully but throws an error during run-time</item>
+        <item>delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects</item>
+        <item>this pointer is passed as a hidden argument in all static functions of a class</item>
+        <item>bool</item>
+        <item>ISCII</item>
+        <item> int array[10];</item>
+        <item>2</item>
+        <item>r distinguishes between comments and outer data</item>
+        <item>call by reference</item>
+        <item>:</item>
+        <item>define</item>
+
+    </string-array>
+
+    <string-array name="question_python">
+        <item>Who developed Python Programming Language?</item>
+        <item> Which type of Programming does Python support?</item>
+        <item>Is Python case sensitive when dealing with identifiers?</item>
+        <item>Which of the following is the correct extension of the Python file?</item>
+        <item>. Is Python code compiled or interpreted?</item>
+        <item>All keywords in Python are in _________</item>
+        <item>What will be the value of the following Python expression?/n4 + 3 % 5</item>
+        <item>Which of the following is used to define a block of code in Python language?</item>
+        <item>Which keyword is used for function in Python language?</item>
+        <item>Which of the following character is used to give single-line comments in Python?</item>
+        <item>Which of the following functions can help us to find the version of python that we are currently working on?</item>
+        <item>Python supports the creation of anonymous functions at runtime, using a construct called __________</item>
+        <item>What will be the output of the following Python code snippet if x=1?</item>
+        <item>Which of the following is the truncation division operator in Python?</item>
+        <item>Which of the following functions is a built-in function in python?</item>
+        <item>Which of the following is not a core data type in Python programming?</item>
+        <item>Which one of the following is not a keyword in Python language?</item>
+        <item>Which module in the python standard library parses options received from the command line?</item>
+        <item>What arithmetic operators cannot be used with strings in Python?</item>
+        <item>Which of the following statements is used to create an empty set in Python?</item>
+
+    </string-array>
+    <string-array name="questions_python_answers">
+        <item>Guido van Rossum</item>
+        <item>all of the mentioned</item>
+        <item> no</item>
+        <item>.py</item>
+        <item>Python code is neither compiled nor interpreted</item>
+        <item>None of the mentioned</item>
+        <item>7</item>
+        <item>Indentation</item>
+        <item>Def</item>
+        <item>#</item>
+        <item>sys.version(1)</item>
+        <item>lambda</item>
+        <item>4</item>
+        <item>//</item>
+        <item>print()</item>
+        <item>Class</item>
+        <item>eval</item>
+        <item>getopt</item>
+        <item>-</item>
+        <item>set()</item>
+
+    </string-array>
+    <string-array name="question_variant_python_a">
+        <item>Wick van Rossum</item>
+        <item> object-oriented programming</item>
+        <item> no</item>
+        <item>.python</item>
+        <item>Python code is both compiled and interpreted</item>
+        <item>Capitalized</item>
+        <item>7</item>
+        <item>Indentation</item>
+        <item>Function</item>
+        <item>//</item>
+        <item>sys.version(1)</item>
+        <item>pi</item>
+        <item>4</item>
+        <item>|</item>
+        <item>factorial()</item>
+        <item>Tuples</item>
+        <item>pass</item>
+        <item>getarg</item>
+        <item>*</item>
+        <item>()</item>
+
+    </string-array>
+    <string-array name="question_variant_python_b">
+        <item>Rasmus Lerdorf</item>
+        <item>structured programming</item>
+        <item>yes</item>
+        <item>pl</item>
+        <item> Python code is neither compiled nor interpreted</item>
+        <item>lower case</item>
+        <item>2</item>
+        <item>Key</item>
+        <item>Def</item>
+        <item>#</item>
+        <item> sys.version(0)</item>
+        <item>anonymous</item>
+        <item>2</item>
+        <item>//</item>
+        <item>print()</item>
+        <item>Lists</item>
+        <item>eval</item>
+        <item>getopt</item>
+        <item>-</item>
+        <item>[]</item>
+
+    </string-array>
+    <string-array name="question_variant_python_c">
+        <item>Guido van Rossum</item>
+        <item>functional programming</item>
+        <item>machine dependent</item>
+        <item>.py</item>
+        <item> Python code is only compiled</item>
+        <item>UPPER CASE</item>
+        <item>4</item>
+        <item>Brackets</item>
+        <item>Fun</item>
+        <item>!</item>
+        <item>sys.version()</item>
+        <item>lambda</item>
+        <item>1</item>
+        <item>/</item>
+        <item>seed()</item>
+        <item>Class</item>
+        <item>assert</item>
+        <item>main</item>
+        <item>+</item>
+        <item>{}</item>
+
+    </string-array>
+    <string-array name="question_variant_python_d">
+        <item>Niene Stom</item>
+        <item>all of the mentioned</item>
+        <item>none of the mentioned</item>
+        <item>.p</item>
+        <item>Python code is only interpreted</item>
+        <item>None of the mentioned</item>
+        <item>1</item>
+        <item>All of the mentioned</item>
+        <item>Define</item>
+        <item>/*</item>
+        <item>sys.version</item>
+        <item>none of the mentioned</item>
+        <item>8</item>
+        <item>%</item>
+        <item>sqrt()</item>
+        <item>Dictionary</item>
+        <item>nonlocal</item>
+        <item>os</item>
+        <item>All of the mentioned</item>
+        <item>set()</item>
+
+    </string-array>
+
+    <string name="_03_00_min">03:00 min</string>
+    <string name="java">java</string>
+    <string name="technalogy">Technalogy</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="programming_n_quiz">Programming  quiz</string>
+    <string name="exist">Exit</string>
+    <string name="ongratulations">Сongratulations</string>
+    <string name="restart">Restart</string>
+    <string name="about">A quiz may be a game during a kind of a tricking-brain under which the players try to answer the subsequent questions being asked in several types like multiple choice, drop-down and more. It’s a game to check the person’s knowledge and skill to trick their brains on some certain subject or topic. A quiz game in some countries is alleged to be a short assessment test that needs some basic knowledge in several fields and to live the knowledge, abilities, and skills of someone in terms of percentage or marks.  Quiz games are nevertheless more famous nowadays which too for a reason. It’s more important to grasp why people need more and more of it and what reasonable quizzes they have. People nowadays wish to challenge themselves and their friends with their knowledge and skills. Through these quizzes, people test their knowledge level, and also daily, they will examine themselves and grow regarding their knowledge and that they examine more if there’s a competitor out there to beat them up!\nThis program was created in the 11th lesson by Murodullayev Muhammad, an android bootcump student of GITA Academy of Programmers.</string>
+</resources>

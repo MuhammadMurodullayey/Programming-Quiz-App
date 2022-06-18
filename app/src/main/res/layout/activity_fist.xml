@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222745"
+    tools:context="uz.gita.myquizappp.FistActivity">
+
+
+        <FrameLayout
+            android:layout_gravity="top"
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/menu_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:padding="8dp"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:id="@+id/info"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|center"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/ic_baseline_info_24"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left|center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="@string/programming_n_quiz"
+                android:textColor="#BDC8CD"
+                android:textSize="24sp"
+                tools:ignore="RtlHardcoded" />
+
+        </FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/image11"
+        app:layout_constraintTop_toBottomOf="@id/frameLayout"
+        app:layout_constraintBottom_toTopOf="@id/linearLayoutCompat2"
+        tools:ignore="NotSibling" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="214dp"
+        app:layout_constraintBottom_toTopOf="@id/start"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="20dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat2"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginHorizontal="10dp">
+
+            <ImageView
+
+                android:id="@+id/java"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_4"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                android:src="@drawable/java_logo" />
+
+            <ImageView
+                android:id="@+id/kotlin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_4"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/kotlin_logo" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/c_langulage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_4"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                android:src="@drawable/c" />
+
+            <ImageView
+                android:id="@+id/pyton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_4"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                android:src="@drawable/pyton" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+
+        android:gravity="center"
+        android:text="Start"
+        android:textColor="#BDC8CD"
+        android:textSize="30sp"
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="40sp"
+        android:background="@drawable/start_style"
+        android:clickable="true"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutCompat1"
+        tools:ignore="NotSibling"
+        android:focusable="true">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
